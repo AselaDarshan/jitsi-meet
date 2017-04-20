@@ -7,7 +7,7 @@ var interfaceConfig = { // eslint-disable-line no-unused-vars
     DEFAULT_BACKGROUND: '#474747',
     INITIAL_TOOLBAR_TIMEOUT: 20000,
     TOOLBAR_TIMEOUT: 4000,
-    DEFAULT_REMOTE_DISPLAY_NAME: "Fellow Jitster",
+    DEFAULT_REMOTE_DISPLAY_NAME: "Partner",
     DEFAULT_LOCAL_DISPLAY_NAME: "me",
     SHOW_JITSI_WATERMARK: true,
     JITSI_WATERMARK_LINK: "https://jitsi.org",
@@ -17,7 +17,7 @@ var interfaceConfig = { // eslint-disable-line no-unused-vars
     BRAND_WATERMARK_LINK: "",
     SHOW_POWERED_BY: false,
     GENERATE_ROOMNAMES_ON_WELCOME_PAGE: true,
-    APP_NAME: "Jitsi Meet",
+    APP_NAME: "Siplo",
     LANG_DETECTION: false,    // Allow i18n to detect the system language
     INVITATION_POWERED_BY: true,
     /**
