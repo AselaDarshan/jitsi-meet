@@ -454,6 +454,7 @@ UI.setSubject = subject => Chat.setSubject(subject);
  */
 UI.initEtherpad = name => {
     if (etherpadManager || !config.etherpad_base || !name) {
+        logger.log('Etherpad is disabled');
         return;
     }
     logger.log('Etherpad is enabled');

@@ -39,7 +39,7 @@ var config = { // eslint-disable-line no-unused-vars
 
     // The ID of the jidesha extension for Firefox. If null, we assume that no
     // extension is required.
-    desktopSharingFirefoxExtId: null,
+    desktopSharingFirefoxExtId: 'jitsi-meet',
     // Whether desktop sharing should be disabled on Firefox.
     desktopSharingFirefoxDisabled: false,
     // The maximum version of Firefox which requires a jidesha extension.
