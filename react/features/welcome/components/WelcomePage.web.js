@@ -260,10 +260,10 @@ class WelcomePage extends AbstractWelcomePage {
             <div id = 'welcome_page_main'>
                 <div id = 'features'>
                     {
-                        this._renderFeatureRow(1, 5)
+                        {/*this._renderFeatureRow(1, 5)*/}
                     }
                     {
-                        this._renderFeatureRow(5, 9)
+                        {/*this._renderFeatureRow(5, 9)*/}
                     }
                 </div>
             </div>
