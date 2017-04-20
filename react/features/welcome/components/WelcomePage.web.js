@@ -168,19 +168,19 @@ class WelcomePage extends AbstractWelcomePage {
      * @returns {ReactElement}
      */
     _renderFeatureRow(beginIndex, endIndex) {
-        const features = [];
-
-        for (let index = beginIndex; index < endIndex; ++index) {
-            features.push(this._renderFeature(index));
-        }
-
-        return (
-            <div className = 'feature_row'>
-                {
-                    features
-                }
-            </div>
-        );
+        // const features = [];
+        //
+        // for (let index = beginIndex; index < endIndex; ++index) {
+        //     features.push(this._renderFeature(index));
+        // }
+        //
+        // return (
+        //     <div className = 'feature_row'>
+        //         {
+        //             features
+        //         }
+        //     </div>
+        // );
     }
 
     /**
