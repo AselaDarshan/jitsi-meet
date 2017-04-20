@@ -97,4 +97,5 @@ var config = { // eslint-disable-line no-unused-vars
     // How long we're going to wait, before going back to P2P after
     // the 3rd participant has left the conference (to filter out page reload)
     //backToP2PDelay: 5
+    etherpad_base: 'https://whiteboard.siplo.lk',
 };
