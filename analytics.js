@@ -22,7 +22,7 @@
     var value = data.value;
     value = value? Math.round(parseFloat(value)) : null;
     var label = data.label || "";
-
+console.log("send: "+data+","+action);
     ga('send', 'event', 'jit.si',
         action + '.' + data.browserName, label, value);
   };
