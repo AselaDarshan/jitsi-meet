@@ -137,7 +137,7 @@ class FollowMe {
                 this._onFollowMeCommand.bind(this));
 
         //enable follow me//asela
-        enableFollowMe(true);
+        this.enableFollowMe(true);
     }
 
     /**
