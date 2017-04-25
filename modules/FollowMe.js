@@ -135,6 +135,9 @@ class FollowMe {
         conference.commands.addCommandListener(
                 _COMMAND,
                 this._onFollowMeCommand.bind(this));
+
+        //enable follow me//asela
+        enableFollowMe(true);
     }
 
     /**
