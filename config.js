@@ -4,6 +4,7 @@ var config = { // eslint-disable-line no-unused-vars
 //    configLocation: './config.json', // see ./modules/HttpConfigFetch.js
     hosts: {
         domain: 'edu.siplo.xyz',
+        authdomain: 'edu.siplo.xyz',
         //anonymousdomain: 'guest.example.com',
         //authdomain: 'jitsi-meet.example.com',  // defaults to <domain>
         muc: 'conference.edu.siplo.xyz', // FIXME: use XEP-0030
